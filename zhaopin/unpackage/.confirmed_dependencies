@@ -1,0 +1,27 @@
+{
+  "index.html": {
+    "href": "index.html",
+    "resources": [
+      "swiper/swiper-3.3.1.min.css",
+      "css/style.css",
+      "swiper/animate.min.css",
+      "js/jquery-2.1.0.js",
+      "js/script.js",
+      "swiper/swiper.animate1.0.2.min.js",
+      "swiper/swiper-3.3.1.min.js",
+      "img/audio2.png",
+      "img/audio1.png",
+      "mp3.mp3",
+      "img/2.png",
+      "img/3.png",
+      "img/logo.png",
+      "img/joinus.png",
+      "img/border2.png",
+      "img/border-line.png",
+      "img/5.png",
+      "img/border-line3.png"
+    ],
+    "refer": [],
+    "priority": 0
+  }
+}

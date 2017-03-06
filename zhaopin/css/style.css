@@ -1,0 +1,184 @@
+
+*{
+	padding: 0;
+	margin: 0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.swiper-container{
+	width: 100%;
+	height: 100%;
+}
+.swiper-wrapper{
+	width: 100%;
+	height: 100%;
+}
+.one{
+	background: url(../img/1.png) no-repeat;
+	background-size: cover;
+	position: relative;
+	overflow: hidden;
+}
+.one_img{
+	width: 10rem;
+	position: absolute;
+	left: 0%;
+	top: 0;
+}
+.one_img img{
+	width: 100%;
+	display: block;
+}
+.one_img2{
+	width: 7rem;
+	position: absolute;
+	left: 14%;
+	top: 18%;
+	z-index: 1;
+}
+.one_img2 img{
+	width: 100%;
+	display: block;
+}
+.audio{
+	width: 1rem;
+	position: fixed;
+	z-index: 20;
+	top: 4%;
+	right: 4%;
+	-webkit-animation: music 5s linear infinite;
+}
+@-webkit-keyframes music{
+	from{transform: rotate(0deg);}
+	to{transform: rotate(360deg);}
+}
+@keyframes music{
+	from{transform: rotate(0deg);}
+	to{transform: rotate(360deg);}
+}
+.audio img{
+	width: 100%;
+}
+.logo{
+	width: 2rem;
+	margin: 0 auto;
+}
+.logo img{
+	width: 100%;
+}
+.two_img{
+	width: 100%;
+	height: 5rem;
+	position: absolute;
+	left: 0%;
+	top: 8%;
+	overflow: hidden;
+	/*border: 1px solid red;*/
+}
+.two_img img{
+	width: 60%;
+	margin-top: -20%;
+	margin-left: 24%;
+	display: block;
+}
+.two_img2{
+	width: 3rem;
+	position: absolute;
+	left: 35%;
+	z-index: 1;
+}
+.two_img2 img{
+	width: 100%;
+	display: block;
+}
+.two_img3{
+	width: 7rem;
+	position: absolute;
+	top: 28%;
+	left: 14%;
+}
+.two_img3 img{
+	width: 100%;
+	display: block;
+}
+.two_img4{
+	width: 7rem;
+	position: absolute;
+	top: 35%;
+	left: 14%;
+}
+.two_img4 img{
+	width: 100%;
+	display: block;
+}
+.two_cont{
+	width: 100%;
+	font-size: 0.8rem;
+	font-family: "微软雅黑";
+	margin-top: 65%;
+	text-align: center;
+}
+.two_img5{
+	position: absolute;
+	left: 25%;
+	/*top: 50%;*/
+	width: 5rem;
+	height: 0.5rem;
+}
+.two_img5 img{
+	width: 100%;
+	display: block;
+}
+.two_cont1{
+	width: 100%;
+	font-size: 0.8rem;
+	font-family: "微软雅黑";
+	margin-top: 6%;
+	text-align: center;
+}
+.two_img6{
+	position: absolute;
+	left: 25%;
+	/*top: 62%;*/
+	width: 5rem;
+	height: 0.5rem;
+}
+.two_img6 img{
+	width: 100%;
+	display: block;
+}
+.two_cont2{
+	width: 100%;
+	font-size: 0.8rem;
+	font-family: "微软雅黑";
+	margin-top: 6%;
+	text-align: center;
+}
+.two_img7{
+	position: absolute;
+	left: 20%;
+	top: 90%;
+	width: 6rem;
+	height: 0.5rem;
+}
+.two_img7 img{
+	width: 100%;
+	display: block;
+}
+.three_cont1{
+	width: 100%;
+	font-size: 0.6rem;
+	font-family: "微软雅黑";
+	margin-top: 6%;
+	text-align: center;
+}
+.three_cont2{
+	width: 100%;
+	font-size: 0.6rem;
+	font-family: "微软雅黑";
+	margin-top: 6%;
+	text-align: center;
+}
